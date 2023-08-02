@@ -12,16 +12,16 @@
 
 The core technologies of _Timberland 3D Boot Customizer_ are JavaScript and WebGL. The following libraries and tools are used:
 
-| Name              | License | Description                                                      |
-| ----------------- | :-----: | ---------------------------------------------------------------- |
-| TypeScript        |   MIT   | A strongly typed programming language that builds on JavaScript, |
-| React             |   MIT   | Component-based, front-end interface library                     |
-| Three.js          |   MIT   | 3D graphics API for the web, based on WebGL                      |
-| React Three Fiber |   MIT   | A React renderer for Three.js                                    |
-| Drei              |   MIT   | Useful helpers for React Three Fiber                             |
-| R3F-Perf          |   MIT   | Performance monitoring                                           |
-| Zustand           |   MIT   | State management                                                 |
-| Vite              |   MIT   | Frontend development tooling                                     |
+| Name              | License | Description                                         |
+| ----------------- | :-----: | --------------------------------------------------- |
+| TypeScript        |   MIT   | A strongly typed language that builds on JavaScript |
+| React             |   MIT   | Component-based, front-end interface library        |
+| Three.js          |   MIT   | 3D graphics API for the web, based on WebGL         |
+| React Three Fiber |   MIT   | A React renderer for Three.js                       |
+| Drei              |   MIT   | Useful helpers for React Three Fiber                |
+| R3F-Perf          |   MIT   | Performance monitoring                              |
+| Zustand           |   MIT   | State management                                    |
+| Vite              |   MIT   | Frontend development tooling                        |
 
 ## License
 

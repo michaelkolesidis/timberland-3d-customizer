@@ -1,7 +1,7 @@
+import { useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
-// import React, { useRef } from "react";
-import { useGLTF } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
+import useStore from "./stores/store";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -50,8 +50,21 @@ type GLTFResult = GLTF & {
   };
 };
 
-export function Boot(props: JSX.IntrinsicElements["group"]) {
-  const { nodes, materials } = useGLTF("/models/boot/boot.glb") as GLTFResult;
+function Boot(props: JSX.IntrinsicElements["group"]) {
+  const color = useStore((state) => state.color).replace(/ /g, "_");
+  const laces = useStore((state) => state.laces).replace(/ /g, "_");
+
+  const { nodes, materials } = useGLTF(
+    `/models/boot/boot_${color}.glb`
+  ) as GLTFResult;
+
+  const lacesTexture = useTexture(`/textures/laces/laces_${laces}.jpeg`);
+  lacesTexture.colorSpace = THREE.SRGBColorSpace;
+
+  const lacesMaterial = new THREE.MeshBasicMaterial({
+    map: lacesTexture,
+  });
+
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -154,7 +167,8 @@ export function Boot(props: JSX.IntrinsicElements["group"]) {
       />
       <mesh
         geometry={nodes.step_1_step_2_laces.geometry}
-        material={materials.laces}
+        // material={materials.laces}
+        material={lacesMaterial}
         position={[0, -0.843, 0]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={0.01}
@@ -198,4 +212,9 @@ export function Boot(props: JSX.IntrinsicElements["group"]) {
   );
 }
 
-useGLTF.preload("/models/boot/boot.glb");
+useGLTF.preload("/models/boot/boot_wheat_nubuck.glb");
+useGLTF.preload("/models/boot/boot_black_nubuck.glb");
+useGLTF.preload("/models/boot/boot_olive_brown_nubuck.glb");
+useGLTF.preload("/models/boot/boot_rust_nubuck.glb");
+
+export default Boot;
