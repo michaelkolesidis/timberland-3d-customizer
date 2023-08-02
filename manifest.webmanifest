@@ -1,0 +1,20 @@
+{
+  "name": "Timberland 3D Boot Customizer",
+  "short_name": "Timberland 3D Boot Customizer",
+  "display": "standalone",
+  "theme_color": "#CF780F",
+  "background_color": "#FFFFFF",
+  "description": "",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
