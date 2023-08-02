@@ -13,6 +13,24 @@
   touch-action: none;
 }
 
+html,
+body {
+  overscroll-behavior: contain;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 a,
 a:hover,
 a:focus,

@@ -1,8 +1,12 @@
+import { Canvas } from "@react-three/fiber";
+import Experience from "./Experience";
+
 function App() {
   return (
     <>
-      <h1>Timberland</h1>
-      <h1>🥾</h1>
+      <Canvas camera={{ fov: 40, position: [0, 0, 20] }}>
+        <Experience />
+      </Canvas>
     </>
   );
 }
