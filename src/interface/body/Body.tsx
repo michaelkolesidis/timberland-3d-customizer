@@ -5,6 +5,8 @@ import WheatNuBruck from "../assets/icons/wheat_bubuck.png";
 import BlackNuBruck from "../assets/icons/black_nubuck.png";
 import OliveBrownNuBruck from "../assets/icons/olive_brown_nubuck.png";
 import RustNuBruck from "../assets/icons/rust_nubuck.png";
+import Rotate from "../assets/images/rotate.svg";
+import "./body.css";
 
 function Body() {
   const setScreen = useStore((state) => state.setScreen);
@@ -20,6 +22,8 @@ function Body() {
   return (
     <>
       <img className="logo" src={Logo} />
+      <img className="rotate" src={Rotate} />
+
       <div className="panel">
         {/* Title*/}
         <div className="title">

@@ -1,0 +1,8 @@
+.rotate {
+  position: fixed;
+  top: 32.5%;
+  right: 5%;
+  width: 30px;
+  margin: 20px;
+  pointer-events: none;
+}
