@@ -10,7 +10,7 @@ function App() {
     <>
       <Interface />
       {screen !== "home" && (
-        <Canvas camera={{ fov: 40, position: [0, 0, 20] }}>
+        <Canvas camera={{ fov: 40, position: [0, 0, 15] }}>
           <Experience />
         </Canvas>
       )}

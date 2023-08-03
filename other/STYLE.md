@@ -19,3 +19,4 @@
    1. Enums
 1. Components
 1. CSS
+1. Images

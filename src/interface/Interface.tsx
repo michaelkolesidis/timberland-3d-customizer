@@ -3,7 +3,7 @@ import Home from "./home/Home";
 import Body from "./body/Body";
 import Laces from "./laces/Laces";
 import Final from "./final/Final";
-import "./style.css";
+import "./interface.css";
 
 function Interface() {
   const screen = useStore((state) => state.screen);

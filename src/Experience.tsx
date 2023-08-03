@@ -10,7 +10,7 @@ export default function Experience() {
         // minPolarAngle={Math.PI / 2}
         // maxPolarAngle={Math.PI / 2}
       />
-      <Boot position={[-0.5, 0, 0]} rotation={[0, -Math.PI / 2, 0]} />
+      <Boot position={[-0.6, 2, 0]} rotation={[0, -Math.PI / 2, 0]} />
     </>
   );
 }

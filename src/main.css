@@ -1,3 +1,10 @@
+:root {
+  --white: #ffffff;
+  --cream: #fffcee;
+  --brown: #cf780f;
+  --black: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
