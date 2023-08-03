@@ -74,7 +74,7 @@ function App() {
                       fov={40}
                       near={0.1}
                       far={100}
-                      position={[-20, 0, 12]}
+                      position={[-16, 2, 13]}
                     />
                   )}
                   <Experience />

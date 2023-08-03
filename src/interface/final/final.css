@@ -17,24 +17,26 @@
 }
 
 .final-bottom {
+  display: flex;
+  flex-direction: column;
 }
 
 .choices {
   background: var(--white);
-  padding: 30px 35px;
-  margin: 30px 0;
+  padding: 25px;
+  margin: 30px 5px;
   border-radius: 20px;
 }
 
 .choice {
   font-family: "Flexa Regular";
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
 .choice-title {
   font-family: "Flexa Regular";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 2px;
 }
