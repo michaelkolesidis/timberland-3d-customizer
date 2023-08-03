@@ -6,23 +6,51 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: var(--brown);
 }
 
 .wordmark-tagline {
   width: 174px;
+  margin: 30px;
+}
+
+.final-bottom {
 }
 
 .choices {
+  background: var(--white);
+  padding: 30px 35px;
+  margin: 30px 0;
+  border-radius: 20px;
+}
 
+.choice {
+  font-family: "Flexa Regular";
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.choice-title {
+  font-family: "Flexa Regular";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .action-buttons {
-
+  display: flex;
+  margin: 60px 0;
 }
 
 .action-button {
-    
+  background: var(--brown);
+  border: 2px solid var(--black);
+  border-radius: 50px;
+  font-family: "Flexa Black";
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 15px;
 }

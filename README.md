@@ -19,7 +19,6 @@ The core technologies of _Timberland 3D Customizer_ are JavaScript and WebGL. Th
 | Three.js          |   MIT   | 3D graphics API for the web, based on WebGL         |
 | React Three Fiber |   MIT   | A React renderer for Three.js                       |
 | Drei              |   MIT   | Useful helpers for React Three Fiber                |
-| R3F-Perf          |   MIT   | Performance monitoring                              |
 | Zustand           |   MIT   | State management                                    |
 | Vite              |   MIT   | Frontend development tooling                        |
 

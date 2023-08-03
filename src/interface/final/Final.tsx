@@ -10,29 +10,36 @@ function Final() {
     <>
       <div className="final">
         <img className="wordmark-tagline" src={WordMarkTagline} />
-        {/* <div className="panel"> */}
 
-        <div className="choices">
-          <div>BODY COLOR: {color.toUpperCase()}</div>
-          <div>LACE COLOR: {laces.toUpperCase()}</div>
-        </div>
-
-        <div className="action-buttons">
-          <div
-            className="action-button"
-            onClick={() => console.log("Download")}
-          >
-            DOWNLOAD
+        <div className="final-bottom">
+          {/* Choices */}
+          <div className="choices">
+            <div className="choice">
+              <span className="choice-title">BODY COLOR:</span>{" "}
+              {color.toUpperCase()}
+            </div>
+            <div className="choice">
+              <span className="choice-title">LACE COLOR:</span>
+              {laces.toUpperCase()}
+            </div>
           </div>
-          <div
-            className="action-button"
-            onClick={() => console.log("See in AR")}
-          >
-            SEE IN AR
+          {/* Action buttons */}
+          <div className="action-buttons">
+            <div
+              className="action-button"
+              onClick={() => console.log("Download")}
+            >
+              DOWNLOAD
+            </div>
+            <div
+              className="action-button"
+              onClick={() => console.log("See in AR")}
+            >
+              SEE IN AR
+            </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 }

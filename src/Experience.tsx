@@ -6,7 +6,7 @@ export default function Experience() {
   const screen = useStore((state) => state.screen);
 
   // Boot position
-  const bootPositionX = screen === "body" ? -0.6 : 0;
+  const bootPositionX = screen === "body" || screen === "final" ? -0.6 : 0;
   const bootPositionY = 2;
   const bootPositionZ = screen === "body" ? 0 : -0.25;
 
@@ -23,10 +23,17 @@ export default function Experience() {
         // minPolarAngle={Math.PI / 2}
         // maxPolarAngle={Math.PI / 2}
       />
+
       <Boot
         position={[bootPositionX, bootPositionY, bootPositionZ]}
         rotation={[bootRotationX, bootRotationY, bootRotationZ]}
       />
+      {screen === "final" && (
+        <Boot
+          position={[bootPositionX + 2, bootPositionY, bootPositionZ]}
+          rotation={[bootRotationX, bootRotationY + 0.2, bootRotationZ]}
+        />
+      )}
     </>
   );
 }

@@ -29,6 +29,13 @@ function App() {
     };
   }, []);
 
+  // const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  // const handleRenderImage = () => {
+  //   const dataURL = canvasRef.current?.toDataURL();
+  //   // Now you can use the dataURL or display it on your website.
+  // };
+
   return (
     <>
       {mobile ? (
@@ -37,7 +44,9 @@ function App() {
             <>
               <Interface />
               {screen !== "home" && (
-                <Canvas>
+                <Canvas
+                // ref={canvasRef}
+                >
                   {/* Front camera */}
                   {screen === "body" && (
                     <PerspectiveCamera
@@ -56,6 +65,16 @@ function App() {
                       near={0.1}
                       far={100}
                       position={[0, 10, 0]}
+                    />
+                  )}
+                  {/* Side camera */}
+                  {screen === "final" && (
+                    <PerspectiveCamera
+                      makeDefault
+                      fov={40}
+                      near={0.1}
+                      far={100}
+                      position={[-20, 0, 12]}
                     />
                   )}
                   <Experience />
