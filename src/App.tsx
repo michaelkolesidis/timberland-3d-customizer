@@ -1,4 +1,5 @@
 import { Canvas } from "@react-three/fiber";
+import { PerspectiveCamera } from "@react-three/drei";
 import useStore from "./stores/store";
 import Interface from "./interface/Interface";
 import Experience from "./Experience";
@@ -10,7 +11,27 @@ function App() {
     <>
       <Interface />
       {screen !== "home" && (
-        <Canvas camera={{ fov: 40, position: [0, 0, 15] }}>
+        <Canvas>
+          {/* Front camera */}
+          {screen === "body" && (
+            <PerspectiveCamera
+              makeDefault
+              fov={40}
+              near={0.1}
+              far={100}
+              position={[0, 0, 15]}
+            />
+          )}
+          {/* Top camera */}
+          {screen === "laces" && (
+            <PerspectiveCamera
+              makeDefault
+              fov={40}
+              near={0.1}
+              far={100}
+              position={[0, 10, 0]}
+            />
+          )}
           <Experience />
         </Canvas>
       )}
