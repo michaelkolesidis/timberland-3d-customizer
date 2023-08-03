@@ -1,22 +1,14 @@
 ![Home](./screenshots/home.png)
 
-Customize and preview Timberland boots in 3D
+**Customize and preview Timberland boots in 3D**
 
 ## Information
 
 Users are able to choose between several customization parameters and preview the 3D model of the boot with the configuration applied in real time.
 
-## Features
+<!-- ## Features -->
 
-## Instructions
-
-## Screenshots
-
-![Body](./screenshots/body.png)
-
-![Body](./screenshots/body_2.png)
-
-![Final](./screenshots/final.png)
+<!-- ## Instructions -->
 
 ## Technologies
 
@@ -31,6 +23,16 @@ The core technologies of _Timberland 3D Customizer_ are JavaScript and WebGL. Th
 | Drei              |   MIT   | Useful helpers for React Three Fiber                |
 | Zustand           |   MIT   | State management                                    |
 | Vite              |   MIT   | Frontend development tooling                        |
+
+## Screenshots
+
+![Body](./screenshots/body.png)
+
+![Body](./screenshots/body_2.png)
+
+![Laces](./screenshots/laces.png)
+
+![Final](./screenshots/final.png)
 
 ## License
 
