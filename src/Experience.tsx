@@ -6,10 +6,11 @@ export default function Experience() {
   const screen = useStore((state) => state.screen);
 
   // Boot position
-  const bootPositionX = screen === "final" ? -2.6 : screen === "body" ? -0.6 : 0;
+  const bootPositionX =
+    screen === "final" ? -2.6 : screen === "body" ? -0.6 : 0;
   const bootPositionY = 2;
-  const bootPositionZ = screen === "final" ? 0.5 : screen === "body" ? 0 : -0.25;
-
+  const bootPositionZ =
+    screen === "final" ? 0.5 : screen === "body" ? 0 : -0.25;
 
   // Boot rotation
   const bootRotationX = 0;

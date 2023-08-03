@@ -19,7 +19,6 @@ const useStore = create<State>()(
     /**
      * Screen
      * (the screen the user is currently at)
-     *
      */
     screen: "home",
     setScreen: (scr: Screen) => {
@@ -32,7 +31,6 @@ const useStore = create<State>()(
     /**
      * Color
      * (the color of the boots)
-     *
      */
     color: "wheat nubuck",
     setColor: (col: Color) => {
@@ -45,7 +43,6 @@ const useStore = create<State>()(
     /**
      * Laces
      * (the color of the laces)
-     *
      */
     laces: "yellow red",
     setLaces: (lac: Lace) => {

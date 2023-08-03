@@ -1,12 +1,22 @@
-# Timberland 3D Customizer 🥾
+![Home](./screenshots/home.png)
+
+Customize and preview Timberland boots in 3D
 
 ## Information
+
+Users are able to choose between several customization parameters and preview the 3D model of the boot with the configuration applied in real time.
 
 ## Features
 
 ## Instructions
 
 ## Screenshots
+
+![Body](./screenshots/body.png)
+
+![Body](./screenshots/body_2.png)
+
+![Final](./screenshots/final.png)
 
 ## Technologies
 
@@ -39,3 +49,5 @@ whether in an action of contract, tort or otherwise, arising from, out of or in 
 or the use or other dealings in the software.
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+🥾

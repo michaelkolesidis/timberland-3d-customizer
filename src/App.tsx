@@ -33,7 +33,6 @@ function App() {
 
   // const handleRenderImage = () => {
   //   const dataURL = canvasRef.current?.toDataURL();
-  //   // Now you can use the dataURL or display it on your website.
   // };
 
   return (

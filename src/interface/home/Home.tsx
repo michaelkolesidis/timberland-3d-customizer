@@ -1,8 +1,8 @@
 import useStore from "../../stores/store";
-import "./home.css";
 import WordMark from "../assets/images/wordmark.svg";
 import TaglineVertical from "../assets/images/tagline_vertical.svg";
 import Boot from "../assets/images/boot.png";
+import "./home.css";
 
 function Home() {
   const setScreen = useStore((state) => state.setScreen);

@@ -1,6 +1,5 @@
 import TaglineHorizontal from "../assets/images/tagline_horizontal.svg";
 import RotatePhone from "../assets/images/rotate_phone.svg";
-
 import "./target_devices.css";
 
 function Portrait() {
