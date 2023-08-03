@@ -1,0 +1,25 @@
+.target-devices {
+  height: 100%;
+  width: 100%;
+  background: var(--brown);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.tagline-horizontal {
+  width: 25%;
+  margin: 4vh;
+}
+
+.rotate-phone {
+  width: 10%;
+  margin: 3vh;
+}
+
+.prompt-text {
+  font-family: "Flexa Bold";
+  font-size: 1.75vw;
+  text-align: center;
+}

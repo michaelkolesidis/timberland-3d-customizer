@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { PerspectiveCamera } from "@react-three/drei";
 import useStore from "./stores/store";
+import Mobile from "./interface/target_devices/Mobile";
+import Portrait from "./interface/target_devices/Portrait";
 import Interface from "./interface/Interface";
 import Experience from "./Experience";
 import { isMobile } from "./utils/functions";
@@ -61,18 +63,11 @@ function App() {
               )}
             </>
           ) : (
-            <>
-              <p>For the best experience rotate your phone.</p>
-            </>
+            <Portrait />
           )}
         </>
       ) : (
-        <>
-          <p>
-            This experience is designed for mobile devices. Please use your
-            mobile device to enjoy the experience.
-          </p>
-        </>
+        <Mobile />
       )}
     </>
   );
