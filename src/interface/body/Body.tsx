@@ -2,6 +2,7 @@ import useStore from "../../stores/store";
 import { Color } from "../../utils/types";
 
 function Body() {
+  const setScreen = useStore((state) => state.setScreen);
   const color = useStore((state) => state.color);
   const setColor = useStore((state) => state.setColor);
 
@@ -28,6 +29,12 @@ function Body() {
       </div>
       <div className="color-button" onClick={() => handleClick("rust nubuck")}>
         Rust Nubuck
+      </div>
+      <div className="" onClick={() => setScreen("home")}>
+        PREVIOUS
+      </div>
+      <div className="" onClick={() => setScreen("laces")}>
+        NEXT
       </div>
     </>
   );

@@ -1,7 +1,11 @@
+import useStore from "../../stores/store";
+
 function Home() {
+  const setScreen = useStore((state) => state.setScreen);
+
   return (
     <>
-      <div>CUSTOMIZE</div>
+      <div onClick={() => setScreen("body")}>CUSTOMIZE</div>
     </>
   );
 }

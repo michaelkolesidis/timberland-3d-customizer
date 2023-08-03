@@ -8,8 +8,8 @@ function Final() {
     <>
       <div>BODY COLOR: {color.toUpperCase()}</div>
       <div>LACE COLOR: {laces.toUpperCase()}</div>
-      <div>DOWNLOAD</div>
-      <div>SEE IN AR</div>
+      <div onClick={() => console.log("Download")}>DOWNLOAD</div>
+      <div onClick={() => console.log("See in AR")}>SEE IN AR</div>
     </>
   );
 }

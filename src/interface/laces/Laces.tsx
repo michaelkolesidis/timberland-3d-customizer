@@ -2,6 +2,7 @@ import useStore from "../../stores/store";
 import { Lace } from "../../utils/types";
 
 function Laces() {
+  const setScreen = useStore((state) => state.setScreen);
   const laces = useStore((state) => state.laces);
   const setLaces = useStore((state) => state.setLaces);
 
@@ -25,6 +26,12 @@ function Laces() {
       </div>
       <div className="color-button" onClick={() => handleClick("yellow red")}>
         Yellow Red
+      </div>
+      <div className="" onClick={() => setScreen("body")}>
+        PREVIOUS
+      </div>
+      <div className="" onClick={() => setScreen("final")}>
+        NEXT
       </div>
     </>
   );

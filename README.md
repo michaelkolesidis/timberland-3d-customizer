@@ -1,4 +1,4 @@
-# Timberland 3D Boot Customizer 🥾
+# Timberland 3D Customizer 🥾
 
 ## Information
 
@@ -10,7 +10,7 @@
 
 ## Technologies
 
-The core technologies of _Timberland 3D Boot Customizer_ are JavaScript and WebGL. The following libraries and tools are used:
+The core technologies of _Timberland 3D Customizer_ are JavaScript and WebGL. The following libraries and tools are used:
 
 | Name              | License | Description                                         |
 | ----------------- | :-----: | --------------------------------------------------- |

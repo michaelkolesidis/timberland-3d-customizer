@@ -1,10 +1,11 @@
 import { create } from "zustand";
 import { subscribeWithSelector } from "zustand/middleware";
-import { Color, Lace } from "../utils/types";
+import { Screen, Color, Lace } from "../utils/types";
 
 type State = {
   // Screen
-  screen: 0 | 1 | 2 | 3;
+  screen: Screen;
+  setScreen: (scr: Screen) => void;
   // Color
   color: Color;
   setColor: (col: Color) => void;
@@ -17,10 +18,17 @@ const useStore = create<State>()(
   subscribeWithSelector((set) => ({
     /**
      * Screen
-     * (the screen the user is at)
+     * (the screen the user is currently at)
      *
      */
-    screen: 0,
+    screen: "home",
+    setScreen: (scr: Screen) => {
+      set(() => {
+        return {
+          screen: scr,
+        };
+      });
+    },
     /**
      * Color
      * (the color of the boots)
