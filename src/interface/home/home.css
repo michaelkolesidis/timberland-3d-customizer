@@ -16,6 +16,11 @@
   margin-bottom: 40px;
 }
 
+.home-main {
+  position: relative;
+  height: 370px;
+}
+
 .tagline-vertical {
   width: 194px;
 }
@@ -23,17 +28,17 @@
 .boot {
   width: 153px;
   position: absolute;
-  bottom: 29%;
-  left: 30%;
-  z-index: 2;
+  bottom: 4px;
+  left: 25px;
+  z-index: 3;
 }
 
 .customize-button {
   color: var(--white);
   background: var(--black);
   border-radius: 50px;
-  margin-top: 120px;
-  padding: 12px 24px;
+  margin-top: 70px;
+  padding: 16px 30px;
   font-family: "Flexa Black";
   font-size: 18px;
 }

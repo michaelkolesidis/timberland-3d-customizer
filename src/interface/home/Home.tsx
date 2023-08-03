@@ -11,8 +11,12 @@ function Home() {
     <>
       <div className="home">
         <img className="wordmark" src={WordMark} />
-        <img className="tagline-vertical" src={TaglineVertical}></img>
-        <img className="boot" src={Boot} />
+
+        <div className="home-main">
+          <img className="tagline-vertical" src={TaglineVertical}></img>
+          <img className="boot" src={Boot} />
+        </div>
+
         <div className="customize-button" onClick={() => setScreen("body")}>
           CUSTOMIZE
         </div>
