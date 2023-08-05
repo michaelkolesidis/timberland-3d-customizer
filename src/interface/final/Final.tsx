@@ -19,7 +19,7 @@ function Final() {
               {color.toUpperCase()}
             </div>
             <div className="choice">
-              <span className="choice-title">LACE COLOR:</span>
+              <span className="choice-title">LACE COLOR:</span>{" "}
               {laces.toUpperCase()}
             </div>
           </div>
