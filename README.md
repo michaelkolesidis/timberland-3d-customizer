@@ -2,6 +2,8 @@
 
 **Customize and preview Timberland boots in 3D**
 
+<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## Information
 
 Users are able to choose between several customization parameters and preview the 3D model of the boot with the configuration applied in real time.
@@ -33,6 +35,12 @@ The core technologies of _Timberland 3D Customizer_ are JavaScript and WebGL. Th
 ![Laces](./screenshots/laces.png)
 
 ![Final](./screenshots/final.png)
+
+## 💖 Support the Project
+
+Thank you so much for your interest in my project! If you want to go a step further and support my work, buy me a coffee:
+
+<a href='https://ko-fi.com/michaelkolesidis' target='_blank'><img src='https://cdn.ko-fi.com/cdn/kofi1.png' style='border:0px;height:45px;' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## License
 
