@@ -44,20 +44,15 @@ Thank you so much for your interest in my project! If you want to go a step furt
 
 ## License
 
-Copyright (c) 2023 Michael Kolesidis - All Rights Reserved.
+Copyright (c) Michael Kolesidis and Timberland LLC - All Rights Reserved.
 
-THE CONTENTS OF THIS PROJECT ARE PROPRIETARY AND CONFIDENTIAL.
-UNAUTHORIZED COPYING, TRANSFERRING OR REPRODUCTION OF THE CONTENTS OF THIS PROJECT, VIA ANY MEDIUM IS STRICTLY PROHIBITED.
+This project is **proprietary and confidential**.
+All source code, assets, and content are the exclusive property of **Michael Kolesidis and Timberland LLC**.
 
-The receipt or possession of the source code and/or any parts thereof does not convey or imply
-any right to use them for any purpose other than the purpose for which they were provided to you.
+Unauthorized copying, reproduction, distribution, modification, or use of any part of this project—by any means—is strictly prohibited without **explicit written permission** from both owners.
 
-The software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to
-the warranties of merchantability, fitness for a particular purpose and non infringement.
-In no event shall the authors or copyright holders be liable for any claim, damages or other liability,
-whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software
-or the use or other dealings in the software.
+Access to this repository does **not grant any license or rights** beyond reviewing the code as published.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The software is provided “as is”, without warranties of any kind.
 
 🥾
